@@ -1,0 +1,50 @@
+.messagesPanel {
+  height: 70%;
+  min-height: 70%;
+  padding: 16px;
+  margin: 32px 0px;
+  border-radius: 4px;
+  border: 2px solid rgb(189, 156, 190);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.messagesPanel:hover {
+  box-shadow: 2px 2px 2px 2px grey;
+}
+
+.message-block {
+  display: inline-block;
+  width: 100%;
+  margin: 2px;
+  padding: 4px;
+  text-align: left;
+}
+
+.message {
+  display: inline-block;
+  width: 60%;
+  margin: 8px 16px;
+  padding: 8px;
+  color: rgb(183, 138, 241);
+  font-weight: bold;
+  text-align: left;
+  border-radius: 8px;
+  background-color: rgb(246, 236, 197);
+  overflow: auto;
+  vertical-align: middle;
+}
+.message:hover {
+  background-color: cornsilk;
+  cursor: pointer;
+}
+.button {
+  display: inline-block;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: crimson;
+  border: none;
+  color: white;
+  vertical-align: middle;
+}

@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+.wrapper {
+  width: 50%;
+  min-height: 20rem;
+  height: 20rem;
+  margin: auto;
+}
